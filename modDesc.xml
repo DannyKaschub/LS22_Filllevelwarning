@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="69">
+
+   <author>LSM/SachsenFarmer</author>
+   	
+	<version>1.0.0.1</version>
+   
+    <title>
+		<en>Filllevel Warning</en>
+		<de>Füllstandswarnung</de>
+    </title>
+	
+    <description>
+		<en>
+		<![CDATA[Filllevel Warning for Harvesters.
+When the Fill level reaches 50% and 80%, a signal tone will be heard.
+When the Fill Level has reached 80% the Beakon Lights are activated.
+
+Changelog 1.0.0.1
+new loading System for the Sounds.
+]]>
+		</en>	
+		<de>
+		<![CDATA[Füllstandswarnung für Erntemaschinen
+Wenn der Füllstand 50% und 80% erreicht, ertönt ein Signalton.
+Wenn der Füllstand 80% erreicht hat, werden die Rundumleuchten eingeschaltet.
+
+Changelog 1.0.0.1
+Neues System zum laden der Sounds
+]]>
+		</de>
+ 	</description>	
+    <multiplayer supported="true"/>
+	<iconFilename>icon.dds</iconFilename>
+	
+	<extraSourceFiles>
+        <sourceFile filename="register.lua" />
+    </extraSourceFiles>
+	
+</modDesc>
